@@ -1,0 +1,58 @@
+.container {
+    position: relative;
+    width: 100%;  
+	height: 100%;  
+    display: flex;    
+}
+.video {    
+    top: 0;
+    left: 0;
+    width: 100%;    
+	border:none;	
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background-color: #071116;
+    bottom: 0;
+    max-height: 10vh;
+    color: #ffffff;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    font-family: wixFreemiumFontW01-55Roma, wixFreemiumFontW02-55Roma, wixFreemiumFontW10-55Roma, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
+    -webkit-transition: background-color 150ms;
+    transition: background-color 150ms;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.desktop-top {
+	position: fixed;
+    top: 0;
+    right: 54px;
+    transition: height 100ms;
+    cursor: pointer;
+    overflow: hidden;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    font-size: 13px;
+    z-index: 9999;
+    width: 161px;
+    height: 21px;
+    background-color: rgba(23, 93, 118, 1);
+    text-align: center;
+    display: flex;
+    line-height: normal;
+    font-family: Helvetica;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
